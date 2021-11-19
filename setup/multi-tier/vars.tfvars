@@ -9,7 +9,10 @@ region = "eu-north-1"
 # Availability zones on which to deploy the subnets
 # This list also functions as a count of how many private and public subnets to make
 # For each availability zone specified a public subnet and private subnet will be made
-availability_zones = ["eu-north-1a", "eu-north-1b", "eu-north-1c"]
+availability_zones = ["eu-north-1a",
+                      #"eu-north-1b", 
+                      #"eu-north-1c"
+                     ]
 
 ################ VPC Vars ################
 

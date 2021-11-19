@@ -16,6 +16,8 @@ module "ec2" {
   vpc_cider_block = module.vpc.vpc_cider_block
   private_subnets = module.vpc.vpc_private_subnet_ids
   public_subnets  = module.vpc.vpc_public_subnet_ids
+  db_user         = var.db_user
+  db_pass         = var.db_pass
 }
 
 module "db" {

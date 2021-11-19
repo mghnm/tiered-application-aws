@@ -22,3 +22,8 @@ output "bastion_ips" {
   value = module.ec2.bastion_ips
   description = "Bastion public ip addresses."
 }
+
+# output "db-info" {
+#     value = module.db.db-info
+#     description = "Database key information."
+# }

@@ -48,3 +48,13 @@ variable "vpc_cider_block" {
 
 }
 
+################ Variables from tfvars ################
+variable "db_user" {
+  type        = string
+  description = "The username for the database user."
+}
+
+variable "db_pass" {
+  type        = string
+  description = "The password for the database user."
+}
